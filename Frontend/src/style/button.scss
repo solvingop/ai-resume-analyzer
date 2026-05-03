@@ -1,0 +1,28 @@
+.button {
+    border: 3px solid #000;
+    outline: none;
+    padding-inline: 1.5rem;
+    padding-block: 0.75rem;
+    border-radius: 0px; /* Sharp corners */
+    cursor: pointer;
+    
+    background-color: #5865f2; /* A vibrant blur */
+    color: #000;
+    font-weight: 900;
+    /* Hard shadow to give it depth */
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+
+    transition: all 0.1s;
+
+    &:hover {
+        background-color: #fff;
+        transform: translate(-2px, -2px);
+        box-shadow: 7px 7px 0px 0px rgba(0,0,0,1);
+    }
+
+    &:active {
+        /* "Pressing" the button moves it into the shadow */
+        transform: translate(5px, 5px);
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+    }
+}
