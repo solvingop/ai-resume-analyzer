@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "https://ai-resume-analyzer-eight-taupe.vercel.app",
+    origin:"https://ai-resume-analyzer-three-sooty.vercel.app",
     credentials: true
 }))
 
