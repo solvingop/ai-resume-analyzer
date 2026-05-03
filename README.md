@@ -24,3 +24,5 @@ Authentication: JWT (JSON Web Tokens) with Secure HTTP-Only Cookies
 AI Engine: LLM integration for resume parsing and question generation
 
 <img width="1515" height="858" alt="Screenshot 2026-05-03 205617" src="https://github.com/user-attachments/assets/2b7cdffe-3942-43f6-b60d-a6bd5b4b4230" />
+<img width="1476" height="853" alt="image" src="https://github.com/user-attachments/assets/05cb5183-e435-4518-90d0-9ded4e7d0760" />
+
