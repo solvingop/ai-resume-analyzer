@@ -169,7 +169,13 @@ const Interview = () => {
                             <span className='match-score__value'>{report.matchScore}</span>
                             <span className='match-score__pct'>%</span>
                         </div>
-                        <p className='match-score__sub'>{report.matchScore} for this role</p>
+                       <p className='match-score__sub'>
+  {report.matchScore < 30 
+    ? 'low match for this role' 
+    : report.matchScore < 60 
+      ? 'mid match for this role' 
+      : 'high match for this role'}
+</p>
                     </div>
 
                     <div className='sidebar-divider' />
